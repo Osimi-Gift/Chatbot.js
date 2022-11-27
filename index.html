@@ -1,0 +1,42 @@
+<!DOCTYPEhtml>
+<html lang="en">
+  <head>
+    <link rel="stylesheet"href="style.css">
+    </head>
+    
+    <body style="background:black;" >
+     <div id="form">
+     <h3 style="display:grid; justify-content:center; text-align:center;color:grey; margin-bottom:10%;padding-top:20%;">Welcome</h3>
+    <h2 id="header">Login</h2>
+    <input id="name" class="put" type="text" placeholder="your name"><br>
+    <input class="put" id="password" type="password" placeholder="your password" id="password"><br>
+    <button id="login">Login</button> <a onclick="signupNewuser();" >sign-up</a>
+    <div id="para"></div>
+    </div>
+    <div id="chatbot">
+      <nav class="container ">
+      <h3 id="online"style=" color:white;">  </h3><br>
+     <p id="loginmsg" style="color:white;"></p>
+      </nav>
+     <div id="sender"><input onsubmit="empty-text" style="color:white; "type="text/number" id="msg"><button onsubmit="empty" type="submit" id="btn">✉️</button></div>
+     </div>
+     <div id="Newuser-container">
+       <h2 style="color:black;">Sign Up</h2><br><br>
+       <label>Full Name</lable><br>
+       <input style="width:100%; color:white;padding-left:20%;padding-right:20%;" id="newuser" type="text"><br>
+       <label style="color:black;">Password</label><br>
+       <input style="width:100%; color:white;padding-left:20%;padding-right:20%;"type="password" id="password"> <br>
+              <label style="color:black;">Date</label><br>
+              <input type="date"style="width:100%; color:white;padding-left:20%;padding-right:20%;" type="text"><br>
+              <label style="color:black;">User Image</label><br>
+              <input style="width:100%; color:white;padding-left:20%;padding-right:20%;" type="file" id="image"><br><br>
+              <select style="border-radius:20px; width:100%; text-align:center;color:#1f75f75; background:white; padding:7%;">
+                <option>Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                </select><br><br>
+       <button onclick="signup();" id="newbutton" style="width:100%;">sign-up</button>
+       </div>
+      <script src="Script.js"></script>
+    </body>
+</html>

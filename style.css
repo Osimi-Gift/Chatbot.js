@@ -1,0 +1,90 @@
+*{
+      padding: 0;
+      margin: 0;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    body{
+      width: 100%;
+    }
+    #form{
+      background-color: #f8f8f8;
+      width: 80%;
+      display: grid;
+      margin: auto;
+      justify-content: center;
+      border-radius: 10px;
+      margin-top: 50%;
+    }
+    #sender{
+    position: fixed;
+    bottom: 0%;
+     width: 100%;
+     margin: auto;
+     
+    }
+    input{
+      width: 80%;
+     padding: 10px;
+     border-radius: 20px;
+     background-color: black;
+     color: white;
+     border: 2px solid white;
+     opacity: 60%;
+    }
+    button{
+      display: inline;
+     width:20%;
+      padding:10px;
+      border: none;
+      border-radius: 10px;
+      background-color: green;
+      opacity: 90%;
+    }
+    .put{
+      width: 100%;
+      text-align: center;
+    }
+    #login{
+      width: 50%;
+      display: grid;
+      justify-content: center;
+      margin: auto;
+      color:white;
+      margin-bottom: 10%;
+      background-color: black;
+    }
+    a{
+      display: grid;
+      justify-content: center;
+      margin: auto;
+      color:green;
+      text-decoration: none;
+      margin-bottom: 10%;
+    }
+    a:hover{
+      transition:0.5s ease;
+      border: 2px solid black;
+      border-radius:20px;
+      padding: 20%;
+      color: black;
+    }
+     #login:hover{
+      transition:0.5s ease;
+      
+     background-color: grey;
+      border: 2px solid black ;
+      color: black;
+    }
+   #Newuser-container{
+     display: grid;
+     justify-content:center;
+     margin: auto;
+     width: 80%;
+     margin-top: 50%;
+     text-align: center;
+     padding: 20%;
+     background: white;
+     color: #1f75f75;
+     border-radius: 20px;
+   }
